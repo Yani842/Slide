@@ -1,0 +1,42 @@
+{
+	"_comment": {"you can set a random num from range, if the range is of ints then write: [\"randint\", [...(range)]], or if you write a range of floats so you write: [\"uniform\", [...(range)]]"},
+	"name": {
+		"velocity": [0, 0],
+		"time": ["randint", [4, 7]],
+		"size": {
+			"do equal to time": true,
+			"subtract": 0
+		},
+		"grav": {
+			"do grav": false,
+			"velocity": [0, 0]
+		},
+		"image": {
+			"type": "shape/image/image set",
+			"shape": "circle/square/...",
+			"color": [200, 100, 106]"rgb",
+			"image path": ["..."],
+			"image set path": ["...(folder)"]
+		}
+	},
+
+	"player die": {
+		"velocity": [0, 0],
+		"time": ["randint", [4, 7]],
+		"size": {
+			"do equal to time": true,
+			"subtract": 0
+		},
+		"grav": {
+			"do grav": false,
+			"velocity": [0, 0]
+		},
+		"image": {
+			"type": "shape",
+			"shape": "circle",
+			"color": [200, 100, 106],
+			"image path": ["..."],
+			"image set path": ["...(folder)"]
+		}
+	}
+}

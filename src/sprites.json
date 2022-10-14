@@ -1,0 +1,112 @@
+{
+    "player": {
+        "do animation": true,
+        "animation prop": {
+            "idle": {
+                "normal": [["animation", "player", "idle", "normal"], 0.3, "infinite", "first"],
+                "injured": [["animation", "player", "idle", "injured"], 0.3, "infinite", "later"]
+            },
+            "death": {
+                "normal": [["animation", "player", "death", "normal"], 0.2, "go", "later"]
+            }
+        }
+    },
+    "portal": {
+        "do animation": true,
+        "animation prop": {
+            "idle": {
+                "normal": [["animation", "portal", "idle"], 0.2, "infinite", "first"]
+            },
+            "enter": {
+                "normal": [["animation", "portal", "enter"], 0.8, "back and forth", "later"]
+            }
+        }
+    },
+    "river": {
+        "do animation": true,
+        "animation prop": {
+        "D":{"normal": [["animation", "river", "D"], 0, "infinite", "later"]},
+        "DL":{"normal": [["animation", "river", "DL"], 0, "infinite", "later"]},
+        "DLR":{"normal": [["animation", "river", "DLR"], 0, "infinite", "later"]},
+        "DR":{"normal": [["animation", "river", "DR"], 0, "infinite", "later"]},
+        "L":{"normal": [["animation", "river", "L"], 0, "infinite", "later"]},
+        "LR":{"normal": [["animation", "river", "LR"], 0, "infinite", "later"]},
+        "M":{"normal": [["animation", "river", "M"], 0, "infinite", "first"]},
+        "R":{"normal": [["animation", "river", "R"], 0, "infinite", "later"]},
+        "U":{"normal": [["animation", "river", "U"], 0, "infinite", "later"]},
+        "UD":{"normal": [["animation", "river", "UD"], 0, "infinite", "later"]},
+        "UDL":{"normal": [["animation", "river", "UDL"], 0, "infinite", "later"]},
+        "UDLR":{"normal": [["animation", "river", "UDLR"], 0, "infinite", "later"]},
+        "UDR":{"normal": [["animation", "river", "UDR"], 0, "infinite", "later"]},
+        "UL":{"normal": [["animation", "river", "UL"], 0, "infinite", "later"]},
+        "ULR":{"normal": [["animation", "river", "ULR"], 0, "infinite", "later"]},
+        "UR":{"normal": [["animation", "river", "UR"], 0, "infinite", "later"]}
+        }
+    },
+    "coin": {
+        "do animation": true,
+        "animation prop": {
+            "1":{"normal": [["animation", "coins", "1"], 0, "infinite", "first"]},
+            "10":{"normal": [["animation", "coins", "10"], 0, "infinite", "later"]}
+        }
+    },
+    "rune": {
+        "do animation": true,
+        "animation prop": {
+            "curing":{"normal": [["animation", "runes", "curing"], 0, "infinite", "first"]},
+            "obstacles protection":{"normal": [["animation", "runes", "obstacles protection"], 0, "infinite", "later"]},
+            "protection":{"normal": [["animation", "runes", "protection"], 0, "infinite", "later"]},
+            "night vision":{"normal": [["animation", "runes", "night vision"], 0, "infinite", "later"]}
+        }
+    },
+    "bullet": {
+        "do animation": true,
+        "animation prop": {
+            "shoot": {"normal": [["animation", "bullet", "shoot"], 0.3, "go", "first"]},
+            "idle": {"normal": [["animation", "bullet", "idle"], 0.2, "back and forth infinite", "later"]},
+            "explosion": {"normal": [["animation", "bullet", "explosion"], 0.3, "go", "later"]}
+        }
+    },
+    "enemy": {
+        "do animation": true,
+        "animation prop": {
+            "idle": {
+                "normal": [["animation", "enemy", "idle", "normal"], 0.3, "infinite", "first"],
+                "injured": [["animation", "enemy", "idle", "injured"], 0.3, "infinite", "later"]
+            },
+            "death": {"normal": [["animation", "enemy", "death"], 0.3, "go", "later"]}
+        }
+    },
+    "frozen": {
+        "do animation": false,
+        "image": ["objects", "walls", "frozen wall.png"]
+    },
+    "sandy": {
+        "do animation": false,
+        "image": ["objects", "walls", "sandy wall.png"]
+    },
+    "harmful": {
+        "do animation": false,
+        "image": ["objects", "walls", "harmful wall.png"]
+    },
+    "glow": {
+        "do animation": false,
+        "image": ["objects", "other", "default.png"]
+    },
+    "trigger": {
+        "do animation": false,
+        "image": ["objects", "other", "trigger.png"]
+    },
+    "jeli": {
+        "do animation": false,
+        "image": ["objects", "obstacles", "jeli.png"]
+    },
+    "tar": {
+        "do animation": false,
+        "image": ["objects", "obstacles", "tar.png"]
+    },
+    "poisoned": {
+        "do animation": false,
+        "image": ["objects", "other", "default.png"]
+    }
+}

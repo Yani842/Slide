@@ -1,0 +1,322 @@
+{
+    "20 2": {
+        "type": "wall",
+        "subtype": "frozen"
+    },
+    "20 3": {
+        "type": "wall",
+        "subtype": "frozen"
+    },
+    "20 4": {
+        "type": "wall",
+        "subtype": "frozen"
+    },
+    "20 5": {
+        "type": "wall",
+        "subtype": "frozen"
+    },
+    "20 6": {
+        "type": "wall",
+        "subtype": "frozen"
+    },
+    "20 7": {
+        "type": "wall",
+        "subtype": "frozen"
+    },
+    "20 8": {
+        "type": "wall",
+        "subtype": "frozen"
+    },
+    "20 9": {
+        "type": "wall",
+        "subtype": "frozen"
+    },
+    "20 12": {
+        "type": "wall",
+        "subtype": "sandy"
+    },
+    "20 13": {
+        "type": "wall",
+        "subtype": "sandy"
+    },
+    "20 14": {
+        "type": "wall",
+        "subtype": "sandy"
+    },
+    "20 15": {
+        "type": "wall",
+        "subtype": "sandy"
+    },
+    "20 16": {
+        "type": "wall",
+        "subtype": "sandy"
+    },
+    "20 17": {
+        "type": "wall",
+        "subtype": "sandy"
+    },
+    "20 18": {
+        "type": "wall",
+        "subtype": "sandy"
+    },
+    "20 19": {
+        "type": "wall",
+        "subtype": "sandy"
+    },
+    "20 20": {
+        "type": "wall",
+        "subtype": "sandy"
+    },
+    "20 21": {
+        "type": "wall",
+        "subtype": "sandy"
+    },
+    "19 21": {
+        "type": "wall",
+        "subtype": "sandy"
+    },
+    "18 21": {
+        "type": "wall",
+        "subtype": "sandy"
+    },
+    "18 20": {
+        "type": "wall",
+        "subtype": "sandy"
+    },
+    "17 19": {
+        "type": "wall",
+        "subtype": "sandy"
+    },
+    "10 5": {
+        "type": "wall",
+        "subtype": "harmful"
+    },
+    "10 6": {
+        "type": "wall",
+        "subtype": "harmful"
+    },
+    "10 7": {
+        "type": "wall",
+        "subtype": "harmful"
+    },
+    "10 8": {
+        "type": "wall",
+        "subtype": "harmful"
+    },
+    "5 15": {
+        "type": "special",
+        "subtype": "river"
+    },
+    "6 16": {
+        "type": "special",
+        "subtype": "river"
+    },
+    "7 16": {
+        "type": "special",
+        "subtype": "river"
+    },
+    "15 15": {
+        "type": "special",
+        "subtype": "portal",
+        "dist": [
+            [
+                15,
+                10
+            ],
+            [
+                15,
+                5
+            ]
+        ]
+    },
+    "3 5": {
+        "type": "obstacles",
+        "subtype": "jeli"
+    },
+    "3 6": {
+        "type": "obstacles",
+        "subtype": "jeli"
+    },
+    "3 7": {
+        "type": "obstacles",
+        "subtype": "jeli"
+    },
+    "3 8": {
+        "type": "obstacles",
+        "subtype": "jeli"
+    },
+    "3 9": {
+        "type": "obstacles",
+        "subtype": "jeli"
+    },
+    "3 10": {
+        "type": "obstacles",
+        "subtype": "jeli"
+    },
+    "5 10": {
+        "type": "obstacles",
+        "subtype": "tar"
+    },
+    "6 10": {
+        "type": "obstacles",
+        "subtype": "tar"
+    },
+    "12 10": {
+        "type": "item",
+        "subtype": "rune",
+        "effect": "night vision"
+    },
+    "12 12": {
+        "type": "item",
+        "subtype": "rune",
+        "effect": "curing"
+    },
+    "12 14": {
+        "type": "item",
+        "subtype": "rune",
+        "effect": "protection"
+    },
+    "12 16": {
+        "type": "item",
+        "subtype": "rune",
+        "effect": "obstacles protection"
+    },
+    "15 4": {
+        "type": "special",
+        "subtype": "trigger"
+    },
+    "16 4": {
+        "type": "special",
+        "subtype": "river"
+    },
+    "15 3": {
+        "type": "special",
+        "subtype": "river"
+    },
+    "metadata": {
+        "map size": [
+            30,
+            30
+        ]
+    },
+    "13 8": {
+        "type": "player"
+    },
+    "10 9": {
+        "type": "wall",
+        "subtype": "harmful"
+    },
+    "12 5": {
+        "type": "item",
+        "subtype": "coin",
+        "value": 1
+    },
+    "13 5": {
+        "type": "item",
+        "subtype": "coin",
+        "value": 10
+    },
+    "6 15": {
+        "type": "special",
+        "subtype": "trigger"
+    },
+    "7 2": {
+        "type": "special",
+        "subtype": "trigger"
+    },
+    "7 1": {
+        "type": "special",
+        "subtype": "river"
+    },
+    "8 2": {
+        "type": "special",
+        "subtype": "river"
+    },
+    "8 3": {
+        "type": "special",
+        "subtype": "river"
+    },
+    "9 3": {
+        "type": "special",
+        "subtype": "river"
+    },
+    "15 2": {
+        "type": "special",
+        "subtype": "river"
+    },
+    "14 2": {
+        "type": "special",
+        "subtype": "river"
+    },
+    "13 2": {
+        "type": "special",
+        "subtype": "river"
+    },
+    "7 17": {
+        "type": "special",
+        "subtype": "river"
+    },
+    "21 8": {
+        "type": "special",
+        "subtype": "trigger"
+    },
+    "21 7": {
+        "type": "special",
+        "subtype": "trigger"
+    },
+    "22 8": {
+        "type": "wall",
+        "subtype": "sandy"
+    },
+    "22 7": {
+        "type": "wall",
+        "subtype": "sandy"
+    },
+    "22 6": {
+        "type": "wall",
+        "subtype": "sandy"
+    },
+    "6 6": {
+        "type": "special",
+        "subtype": "portal",
+        "dist": [
+            [
+                6,
+                10
+            ]
+        ]
+    },
+    "10 12": {
+        "type": "item",
+        "subtype": "rune",
+        "effect": "curing"
+    },
+    "8 5": {
+        "type": "entity",
+        "subtype": "enemy"
+    },
+    "25 4": {
+        "type": "wall",
+        "subtype": "glow"
+    },
+    "25 5": {
+        "type": "wall",
+        "subtype": "glow"
+    },
+    "25 6": {
+        "type": "wall",
+        "subtype": "glow"
+    },
+    "25 10": {
+        "type": "obstacles",
+        "subtype": "poisoned"
+    },
+    "25 11": {
+        "type": "obstacles",
+        "subtype": "poisoned"
+    },
+    "25 12": {
+        "type": "obstacles",
+        "subtype": "poisoned"
+    }
+}
